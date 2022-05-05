@@ -1,0 +1,788 @@
+   info 2021-10-01 12:22:41.313         ad   main  24892  24892                         impl_selector - using avx2
+ * * * * * * * * * * * * * * * * * *
+   info 2021-10-01 12:22:41.313         ad   main  24892  24892                                  main - * AnyDesk Linux Startup *
+   info 2021-10-01 12:22:41.313         ad   main  24892  24892                                  main - * Version 6.1.1 (linux_bsd_rpi_6.1.1 d5cd0aedcfaef0b868e31f90b10395e13dd0a3ef)
+   info 2021-10-01 12:22:41.313         ad   main  24892  24892                                  main - * Build 20210413130604
+   info 2021-10-01 12:22:41.313         ad   main  24892  24892                                  main - * Prefix ad
+   info 2021-10-01 12:22:41.313         ad   main  24892  24892                                  main - * Copyright (C) 2021 AnyDesk Software GmbH *
+   info 2021-10-01 12:22:41.313         ad   main  24892  24892                                  main - 
+   info 2021-10-01 12:22:41.313         ad   main  24892  24892                                  main - Distribution Info: CentOS Linux 7 (Core)
+   info 2021-10-01 12:22:41.313         ad   main  24892  24892                                  main - Found GLib Version: 2.56.
+   info 2021-10-01 12:22:41.319         ad   main  24892  24892                       app.common_path - user_data_dir = /home/chaithu/.anydesk, logged_in_user_data_dir = /home/chaithu/.anydesk, current_home = /home/chaithu
+
+   info 2021-10-01 12:22:41.319         ad   main  24892  24892                       app.common_path - initialized user = /home/chaithu/.anydesk, system = /etc/anydesk
+   info 2021-10-01 12:22:41.320         ad   main  24892  24892                       app.common_path - user_data_dir = /home/chaithu/.anydesk, logged_in_user_data_dir = /home/chaithu/.anydesk, current_home = /home/chaithu
+
+   info 2021-10-01 12:22:41.320         ad   main  24892  24892                       app.common_path - initialized user = /home/chaithu/.anydesk, system = /etc/anydesk
+   info 2021-10-01 12:22:41.320         ad   main  24892  24892                                  main - Starting global settings process (24892).
+   info 2021-10-01 12:22:41.325 global_settings   main  24892  24892                           gui.gui_app - DPI scaling: 1.00 / 1.00
+   info 2021-10-01 12:22:41.325 global_settings   main  24892  24892                           gui.gui_app - Using std-resolution bitmaps.
+   info 2021-10-01 12:22:41.335 global_settings   main  24892  24892                       base.signal.hub - 1 threads.
+   info 2021-10-01 12:22:41.374 global_settings   ctrl  24892  24898                   gui.global_settings - Global settings startup.
+   info 2021-10-01 12:22:41.374 global_settings   ctrl  24892  24898                   fiber.ipc_namespace - Global: yes
+  error 2021-10-01 12:22:41.374 global_settings   ctrl  24892  24898              base.signal.global.event - Cannot set the subsignal count to a smaller or equal value.
+  error 2021-10-01 12:22:41.377 global_settings   wrk0  24892  24899              base.prot.packet_factory - Invalid packet received (type=42, 0 bytes).
+  error 2021-10-01 12:22:41.377 global_settings   wrk0  24892  24899                        hub_ipc_socket - IPC packet deserialization failed.
+   info 2021-10-01 12:22:41.392 global_settings   main  24892  24892                     one_time_password - Resetting 2FA key.
+   info 2021-10-01 12:22:43.267 global_settings   main  24892  24892                     one_time_password - Resetting 2FA key.
+   info 2021-10-01 12:22:50.542 global_settings   main  24892  24892                 gui.generate_password - A new password was set.
+   info 2021-10-01 12:22:53.387 global_settings   ctrl  24892  24898                   gui.global_settings - Global settings shutdown.
+   info 2021-10-01 12:22:53.387 global_settings   ctrl  24892  24898                       base.signal.hub - Control quit.
+   info 2021-10-01 12:22:53.391 global_settings   main  24892  24892              base.prot.job_dispatcher - 0 undelivered packets.
+   info 2021-10-01 12:22:53.393 global_settings   main  24892  24892                                  main - Exiting normally.
+   info 2021-11-25 09:31:46.761         ad   main   1372   1372                         impl_selector - using avx2
+ * * * * * * * * * * * * * * * * * *
+   info 2021-11-25 09:31:46.777         ad   main   1372   1372                                  main - * AnyDesk Linux Startup *
+   info 2021-11-25 09:31:46.777         ad   main   1372   1372                                  main - * Version 6.1.1 (linux_bsd_rpi_6.1.1 d5cd0aedcfaef0b868e31f90b10395e13dd0a3ef)
+   info 2021-11-25 09:31:46.777         ad   main   1372   1372                                  main - * Build 20210413130604
+   info 2021-11-25 09:31:46.777         ad   main   1372   1372                                  main - * Prefix ad
+   info 2021-11-25 09:31:46.777         ad   main   1372   1372                                  main - * Copyright (C) 2021 AnyDesk Software GmbH *
+   info 2021-11-25 09:31:46.777         ad   main   1372   1372                                  main - 
+   info 2021-11-25 09:31:46.778         ad   main   1372   1372                                  main - Distribution Info: CentOS Linux 7 (Core)
+   info 2021-11-25 09:31:46.778         ad   main   1372   1372                                  main - Found GLib Version: 2.56.
+warning 2021-11-25 09:31:46.784         ad   main   1372   1372                   fiber.ipc_namespace - Global namespace without service.
+warning 2021-11-25 09:31:46.784         ad   main   1372   1372                   fiber.ipc_namespace - Local namespace without service.
+   info 2021-11-25 09:31:46.784         ad   main   1372   1372                   fiber.ipc_namespace - Global: no
+   info 2021-11-25 09:31:46.784         ad   main   1372   1372                       app.common_path - user_data_dir = /root/.anydesk, logged_in_user_data_dir = /root/.anydesk, current_home = /root
+
+   info 2021-11-25 09:31:46.784         ad   main   1372   1372                       app.common_path - initialized user = /root/.anydesk, system = /root/.anydesk
+   info 2021-11-25 09:31:46.807         ad   main   1375   1375                         impl_selector - using avx2
+ * * * * * * * * * * * * * * * * * *
+   info 2021-11-25 09:31:46.808         ad   main   1375   1375                                  main - * AnyDesk Linux Startup *
+   info 2021-11-25 09:31:46.808         ad   main   1375   1375                                  main - * Version 6.1.1 (linux_bsd_rpi_6.1.1 d5cd0aedcfaef0b868e31f90b10395e13dd0a3ef)
+   info 2021-11-25 09:31:46.808         ad   main   1375   1375                                  main - * Build 20210413130604
+   info 2021-11-25 09:31:46.808         ad   main   1375   1375                                  main - * Prefix ad
+   info 2021-11-25 09:31:46.808         ad   main   1375   1375                                  main - * Copyright (C) 2021 AnyDesk Software GmbH *
+   info 2021-11-25 09:31:46.808         ad   main   1375   1375                                  main - 
+   info 2021-11-25 09:31:46.808         ad   main   1375   1375                                  main - Distribution Info: CentOS Linux 7 (Core)
+   info 2021-11-25 09:31:46.808         ad   main   1375   1375                                  main - Found GLib Version: 2.56.
+   info 2021-11-25 09:31:46.821         ad   main   1375   1375                       app.common_path - user_data_dir = /root/.anydesk, logged_in_user_data_dir = /root/.anydesk, current_home = /root
+
+   info 2021-11-25 09:31:46.821         ad   main   1375   1375                       app.common_path - initialized user = /root/.anydesk, system = /etc/anydesk
+   info 2021-11-25 09:31:46.822         ad   main   1375   1375                       app.common_path - user_data_dir = /root/.anydesk, logged_in_user_data_dir = /root/.anydesk, current_home = /root
+
+   info 2021-11-25 09:31:46.822         ad   main   1375   1375                       app.common_path - initialized user = /root/.anydesk, system = /etc/anydesk
+  error 2021-11-25 09:31:46.823         ad   main   1375   1375                                  main - Service is already running.
+   info 2021-11-25 09:31:46.823         ad   main   1375   1375                                  main - Exiting normally.
+explode 2021-11-25 09:31:48.758    control   main   1372   1372             app.named_process_starter - Unable to spawn service
+   info 2021-12-21 09:52:57.340         ad   main   9970   9970                         impl_selector - using avx2
+ * * * * * * * * * * * * * * * * * *
+   info 2021-12-21 09:52:57.380         ad   main   9970   9970                                  main - * AnyDesk Linux Startup *
+   info 2021-12-21 09:52:57.380         ad   main   9970   9970                                  main - * Version 6.1.1 (linux_bsd_rpi_6.1.1 d5cd0aedcfaef0b868e31f90b10395e13dd0a3ef)
+   info 2021-12-21 09:52:57.380         ad   main   9970   9970                                  main - * Build 20210413130604
+   info 2021-12-21 09:52:57.380         ad   main   9970   9970                                  main - * Prefix ad
+   info 2021-12-21 09:52:57.380         ad   main   9970   9970                                  main - * Copyright (C) 2021 AnyDesk Software GmbH *
+   info 2021-12-21 09:52:57.380         ad   main   9970   9970                                  main - 
+   info 2021-12-21 09:52:57.380         ad   main   9970   9970                                  main - Distribution Info: CentOS Linux 7 (Core)
+   info 2021-12-21 09:52:57.380         ad   main   9970   9970                                  main - Found GLib Version: 2.56.
+   info 2021-12-21 09:52:57.393         ad   main   9970   9970                       app.common_path - user_data_dir = /home/chaithu/.anydesk, logged_in_user_data_dir = /home/chaithu/.anydesk, current_home = /home/chaithu
+
+   info 2021-12-21 09:52:57.393         ad   main   9970   9970                       app.common_path - initialized user = /home/chaithu/.anydesk, system = /etc/anydesk
+   info 2021-12-21 09:52:57.393         ad   main   9970   9970                       app.common_path - user_data_dir = /home/chaithu/.anydesk, logged_in_user_data_dir = /home/chaithu/.anydesk, current_home = /home/chaithu
+
+   info 2021-12-21 09:52:57.394         ad   main   9970   9970                       app.common_path - initialized user = /home/chaithu/.anydesk, system = /etc/anydesk
+   info 2021-12-21 09:52:57.394         ad   main   9970   9970                                  main - Starting frontend process (9970).
+   info 2021-12-21 09:52:57.396   frontend   main   9970   9970                           gui.gui_app - DPI scaling: 1.00 / 1.00
+   info 2021-12-21 09:52:57.396   frontend   main   9970   9970                           gui.gui_app - Using std-resolution bitmaps.
+warning 2021-12-21 09:52:57.415   frontend   main   9970   9970        base.signal.global.shared_file - open (/var/lib/AccountsService/users/root) failed (2): No such file or directory 
+warning 2021-12-21 09:52:57.415   frontend   main   9970   9970                         app.user_info - Could not update user image (File not found: /root/.face.icon). Defaulting.
+   info 2021-12-21 09:52:57.418   frontend   main   9970   9970                       base.signal.hub - 16 threads.
+   info 2021-12-21 09:52:57.418   frontend   timr   9970   9974          base.signal.local.timer_impl - Initialized master timer.
+   info 2021-12-21 09:52:57.464   frontend   main   9970   9970                      gui.error_dialog - Showing root error dialog.
+   info 2021-12-21 09:53:01.244   frontend   timr   9970   9974          base.signal.local.timer_impl - Timer wants to quit.
+   info 2021-12-21 09:53:01.244   frontend   main   9970   9970              base.prot.job_dispatcher - 0 undelivered packets.
+   info 2021-12-21 09:53:01.246   frontend   main   9970   9970                                  main - Exiting normally.
+   info 2021-12-28 10:06:42.852         ad   main   1369   1369                         impl_selector - using avx2
+ * * * * * * * * * * * * * * * * * *
+   info 2021-12-28 10:06:42.852         ad   main   1369   1369                                  main - * AnyDesk Linux Startup *
+   info 2021-12-28 10:06:42.852         ad   main   1369   1369                                  main - * Version 6.1.1 (linux_bsd_rpi_6.1.1 d5cd0aedcfaef0b868e31f90b10395e13dd0a3ef)
+   info 2021-12-28 10:06:42.852         ad   main   1369   1369                                  main - * Build 20210413130604
+   info 2021-12-28 10:06:42.852         ad   main   1369   1369                                  main - * Prefix ad
+   info 2021-12-28 10:06:42.852         ad   main   1369   1369                                  main - * Copyright (C) 2021 AnyDesk Software GmbH *
+   info 2021-12-28 10:06:42.852         ad   main   1369   1369                                  main - 
+   info 2021-12-28 10:06:42.852         ad   main   1369   1369                                  main - Distribution Info: CentOS Linux 7 (Core)
+   info 2021-12-28 10:06:42.853         ad   main   1369   1369                                  main - Found GLib Version: 2.56.
+warning 2021-12-28 10:06:42.855         ad   main   1369   1369                   fiber.ipc_namespace - Global namespace without service.
+warning 2021-12-28 10:06:42.855         ad   main   1369   1369                   fiber.ipc_namespace - Local namespace without service.
+   info 2021-12-28 10:06:42.855         ad   main   1369   1369                   fiber.ipc_namespace - Global: no
+   info 2021-12-28 10:06:42.855         ad   main   1369   1369                       app.common_path - user_data_dir = /root/.anydesk, logged_in_user_data_dir = /root/.anydesk, current_home = /root
+
+   info 2021-12-28 10:06:42.879         ad   main   1369   1369                       app.common_path - initialized user = /root/.anydesk, system = /root/.anydesk
+   info 2021-12-28 10:06:42.890         ad   main   1372   1372                         impl_selector - using avx2
+ * * * * * * * * * * * * * * * * * *
+   info 2021-12-28 10:06:42.890         ad   main   1372   1372                                  main - * AnyDesk Linux Startup *
+   info 2021-12-28 10:06:42.890         ad   main   1372   1372                                  main - * Version 6.1.1 (linux_bsd_rpi_6.1.1 d5cd0aedcfaef0b868e31f90b10395e13dd0a3ef)
+   info 2021-12-28 10:06:42.890         ad   main   1372   1372                                  main - * Build 20210413130604
+   info 2021-12-28 10:06:42.890         ad   main   1372   1372                                  main - * Prefix ad
+   info 2021-12-28 10:06:42.890         ad   main   1372   1372                                  main - * Copyright (C) 2021 AnyDesk Software GmbH *
+   info 2021-12-28 10:06:42.890         ad   main   1372   1372                                  main - 
+   info 2021-12-28 10:06:42.890         ad   main   1372   1372                                  main - Distribution Info: CentOS Linux 7 (Core)
+   info 2021-12-28 10:06:42.890         ad   main   1372   1372                                  main - Found GLib Version: 2.56.
+   info 2021-12-28 10:06:42.896         ad   main   1372   1372                       app.common_path - user_data_dir = /root/.anydesk, logged_in_user_data_dir = /root/.anydesk, current_home = /root
+
+   info 2021-12-28 10:06:42.896         ad   main   1372   1372                       app.common_path - initialized user = /root/.anydesk, system = /etc/anydesk
+   info 2021-12-28 10:06:42.896         ad   main   1372   1372                       app.common_path - user_data_dir = /root/.anydesk, logged_in_user_data_dir = /root/.anydesk, current_home = /root
+
+   info 2021-12-28 10:06:42.896         ad   main   1372   1372                       app.common_path - initialized user = /root/.anydesk, system = /etc/anydesk
+  error 2021-12-28 10:06:42.896         ad   main   1372   1372                                  main - Service is already running.
+   info 2021-12-28 10:06:42.896         ad   main   1372   1372                                  main - Exiting normally.
+explode 2021-12-28 10:06:44.834    control   main   1369   1369             app.named_process_starter - Unable to spawn service
+   info 2022-01-02 05:33:10.023         ad   main   1373   1373                         impl_selector - using avx2
+ * * * * * * * * * * * * * * * * * *
+   info 2022-01-02 05:33:10.023         ad   main   1373   1373                                  main - * AnyDesk Linux Startup *
+   info 2022-01-02 05:33:10.023         ad   main   1373   1373                                  main - * Version 6.1.1 (linux_bsd_rpi_6.1.1 d5cd0aedcfaef0b868e31f90b10395e13dd0a3ef)
+   info 2022-01-02 05:33:10.023         ad   main   1373   1373                                  main - * Build 20210413130604
+   info 2022-01-02 05:33:10.023         ad   main   1373   1373                                  main - * Prefix ad
+   info 2022-01-02 05:33:10.023         ad   main   1373   1373                                  main - * Copyright (C) 2021 AnyDesk Software GmbH *
+   info 2022-01-02 05:33:10.023         ad   main   1373   1373                                  main - 
+   info 2022-01-02 05:33:10.023         ad   main   1373   1373                                  main - Distribution Info: CentOS Linux 7 (Core)
+   info 2022-01-02 05:33:10.024         ad   main   1373   1373                                  main - Found GLib Version: 2.56.
+warning 2022-01-02 05:33:10.026         ad   main   1373   1373                   fiber.ipc_namespace - Global namespace without service.
+warning 2022-01-02 05:33:10.026         ad   main   1373   1373                   fiber.ipc_namespace - Local namespace without service.
+   info 2022-01-02 05:33:10.026         ad   main   1373   1373                   fiber.ipc_namespace - Global: no
+   info 2022-01-02 05:33:10.026         ad   main   1373   1373                       app.common_path - user_data_dir = /root/.anydesk, logged_in_user_data_dir = /root/.anydesk, current_home = /root
+
+   info 2022-01-02 05:33:10.051         ad   main   1373   1373                       app.common_path - initialized user = /root/.anydesk, system = /root/.anydesk
+   info 2022-01-02 05:33:10.063         ad   main   1376   1376                         impl_selector - using avx2
+ * * * * * * * * * * * * * * * * * *
+   info 2022-01-02 05:33:10.063         ad   main   1376   1376                                  main - * AnyDesk Linux Startup *
+   info 2022-01-02 05:33:10.063         ad   main   1376   1376                                  main - * Version 6.1.1 (linux_bsd_rpi_6.1.1 d5cd0aedcfaef0b868e31f90b10395e13dd0a3ef)
+   info 2022-01-02 05:33:10.063         ad   main   1376   1376                                  main - * Build 20210413130604
+   info 2022-01-02 05:33:10.063         ad   main   1376   1376                                  main - * Prefix ad
+   info 2022-01-02 05:33:10.063         ad   main   1376   1376                                  main - * Copyright (C) 2021 AnyDesk Software GmbH *
+   info 2022-01-02 05:33:10.063         ad   main   1376   1376                                  main - 
+   info 2022-01-02 05:33:10.064         ad   main   1376   1376                                  main - Distribution Info: CentOS Linux 7 (Core)
+   info 2022-01-02 05:33:10.064         ad   main   1376   1376                                  main - Found GLib Version: 2.56.
+   info 2022-01-02 05:33:10.067         ad   main   1376   1376                       app.common_path - user_data_dir = /root/.anydesk, logged_in_user_data_dir = /root/.anydesk, current_home = /root
+
+   info 2022-01-02 05:33:10.067         ad   main   1376   1376                       app.common_path - initialized user = /root/.anydesk, system = /etc/anydesk
+   info 2022-01-02 05:33:10.067         ad   main   1376   1376                       app.common_path - user_data_dir = /root/.anydesk, logged_in_user_data_dir = /root/.anydesk, current_home = /root
+
+   info 2022-01-02 05:33:10.067         ad   main   1376   1376                       app.common_path - initialized user = /root/.anydesk, system = /etc/anydesk
+  error 2022-01-02 05:33:10.067         ad   main   1376   1376                                  main - Service is already running.
+   info 2022-01-02 05:33:10.067         ad   main   1376   1376                                  main - Exiting normally.
+explode 2022-01-02 05:33:12.037    control   main   1373   1373             app.named_process_starter - Unable to spawn service
+   info 2022-01-20 10:13:34.904         ad   main   1375   1375                         impl_selector - using avx2
+ * * * * * * * * * * * * * * * * * *
+   info 2022-01-20 10:13:34.904         ad   main   1375   1375                                  main - * AnyDesk Linux Startup *
+   info 2022-01-20 10:13:34.904         ad   main   1375   1375                                  main - * Version 6.1.1 (linux_bsd_rpi_6.1.1 d5cd0aedcfaef0b868e31f90b10395e13dd0a3ef)
+   info 2022-01-20 10:13:34.904         ad   main   1375   1375                                  main - * Build 20210413130604
+   info 2022-01-20 10:13:34.904         ad   main   1375   1375                                  main - * Prefix ad
+   info 2022-01-20 10:13:34.904         ad   main   1375   1375                                  main - * Copyright (C) 2021 AnyDesk Software GmbH *
+   info 2022-01-20 10:13:34.904         ad   main   1375   1375                                  main - 
+   info 2022-01-20 10:13:34.904         ad   main   1375   1375                                  main - Distribution Info: CentOS Linux 7 (Core)
+   info 2022-01-20 10:13:34.904         ad   main   1375   1375                                  main - Found GLib Version: 2.56.
+warning 2022-01-20 10:13:34.907         ad   main   1375   1375                   fiber.ipc_namespace - Global namespace without service.
+warning 2022-01-20 10:13:34.907         ad   main   1375   1375                   fiber.ipc_namespace - Local namespace without service.
+   info 2022-01-20 10:13:34.907         ad   main   1375   1375                   fiber.ipc_namespace - Global: no
+   info 2022-01-20 10:13:34.907         ad   main   1375   1375                       app.common_path - user_data_dir = /root/.anydesk, logged_in_user_data_dir = /root/.anydesk, current_home = /root
+
+   info 2022-01-20 10:13:34.931         ad   main   1375   1375                       app.common_path - initialized user = /root/.anydesk, system = /root/.anydesk
+   info 2022-01-20 10:13:34.942         ad   main   1378   1378                         impl_selector - using avx2
+ * * * * * * * * * * * * * * * * * *
+   info 2022-01-20 10:13:34.942         ad   main   1378   1378                                  main - * AnyDesk Linux Startup *
+   info 2022-01-20 10:13:34.943         ad   main   1378   1378                                  main - * Version 6.1.1 (linux_bsd_rpi_6.1.1 d5cd0aedcfaef0b868e31f90b10395e13dd0a3ef)
+   info 2022-01-20 10:13:34.943         ad   main   1378   1378                                  main - * Build 20210413130604
+   info 2022-01-20 10:13:34.943         ad   main   1378   1378                                  main - * Prefix ad
+   info 2022-01-20 10:13:34.943         ad   main   1378   1378                                  main - * Copyright (C) 2021 AnyDesk Software GmbH *
+   info 2022-01-20 10:13:34.943         ad   main   1378   1378                                  main - 
+   info 2022-01-20 10:13:34.943         ad   main   1378   1378                                  main - Distribution Info: CentOS Linux 7 (Core)
+   info 2022-01-20 10:13:34.943         ad   main   1378   1378                                  main - Found GLib Version: 2.56.
+   info 2022-01-20 10:13:34.949         ad   main   1378   1378                       app.common_path - user_data_dir = /root/.anydesk, logged_in_user_data_dir = /root/.anydesk, current_home = /root
+
+   info 2022-01-20 10:13:34.949         ad   main   1378   1378                       app.common_path - initialized user = /root/.anydesk, system = /etc/anydesk
+   info 2022-01-20 10:13:34.949         ad   main   1378   1378                       app.common_path - user_data_dir = /root/.anydesk, logged_in_user_data_dir = /root/.anydesk, current_home = /root
+
+   info 2022-01-20 10:13:34.949         ad   main   1378   1378                       app.common_path - initialized user = /root/.anydesk, system = /etc/anydesk
+  error 2022-01-20 10:13:34.949         ad   main   1378   1378                                  main - Service is already running.
+   info 2022-01-20 10:13:34.950         ad   main   1378   1378                                  main - Exiting normally.
+explode 2022-01-20 10:13:36.851    control   main   1375   1375             app.named_process_starter - Unable to spawn service
+   info 2022-01-22 11:00:47.910         ad   main   1379   1379                         impl_selector - using avx2
+ * * * * * * * * * * * * * * * * * *
+   info 2022-01-22 11:00:47.910         ad   main   1379   1379                                  main - * AnyDesk Linux Startup *
+   info 2022-01-22 11:00:47.910         ad   main   1379   1379                                  main - * Version 6.1.1 (linux_bsd_rpi_6.1.1 d5cd0aedcfaef0b868e31f90b10395e13dd0a3ef)
+   info 2022-01-22 11:00:47.911         ad   main   1379   1379                                  main - * Build 20210413130604
+   info 2022-01-22 11:00:47.911         ad   main   1379   1379                                  main - * Prefix ad
+   info 2022-01-22 11:00:47.911         ad   main   1379   1379                                  main - * Copyright (C) 2021 AnyDesk Software GmbH *
+   info 2022-01-22 11:00:47.911         ad   main   1379   1379                                  main - 
+   info 2022-01-22 11:00:47.911         ad   main   1379   1379                                  main - Distribution Info: CentOS Linux 7 (Core)
+   info 2022-01-22 11:00:47.911         ad   main   1379   1379                                  main - Found GLib Version: 2.56.
+warning 2022-01-22 11:00:47.913         ad   main   1379   1379                   fiber.ipc_namespace - Global namespace without service.
+warning 2022-01-22 11:00:47.913         ad   main   1379   1379                   fiber.ipc_namespace - Local namespace without service.
+   info 2022-01-22 11:00:47.913         ad   main   1379   1379                   fiber.ipc_namespace - Global: no
+   info 2022-01-22 11:00:47.913         ad   main   1379   1379                       app.common_path - user_data_dir = /root/.anydesk, logged_in_user_data_dir = /root/.anydesk, current_home = /root
+
+   info 2022-01-22 11:00:47.937         ad   main   1379   1379                       app.common_path - initialized user = /root/.anydesk, system = /root/.anydesk
+   info 2022-01-22 11:00:47.949         ad   main   1382   1382                         impl_selector - using avx2
+ * * * * * * * * * * * * * * * * * *
+   info 2022-01-22 11:00:47.950         ad   main   1382   1382                                  main - * AnyDesk Linux Startup *
+   info 2022-01-22 11:00:47.950         ad   main   1382   1382                                  main - * Version 6.1.1 (linux_bsd_rpi_6.1.1 d5cd0aedcfaef0b868e31f90b10395e13dd0a3ef)
+   info 2022-01-22 11:00:47.950         ad   main   1382   1382                                  main - * Build 20210413130604
+   info 2022-01-22 11:00:47.950         ad   main   1382   1382                                  main - * Prefix ad
+   info 2022-01-22 11:00:47.950         ad   main   1382   1382                                  main - * Copyright (C) 2021 AnyDesk Software GmbH *
+   info 2022-01-22 11:00:47.950         ad   main   1382   1382                                  main - 
+   info 2022-01-22 11:00:47.950         ad   main   1382   1382                                  main - Distribution Info: CentOS Linux 7 (Core)
+   info 2022-01-22 11:00:47.950         ad   main   1382   1382                                  main - Found GLib Version: 2.56.
+   info 2022-01-22 11:00:47.957         ad   main   1382   1382                       app.common_path - user_data_dir = /root/.anydesk, logged_in_user_data_dir = /root/.anydesk, current_home = /root
+
+   info 2022-01-22 11:00:47.957         ad   main   1382   1382                       app.common_path - initialized user = /root/.anydesk, system = /etc/anydesk
+   info 2022-01-22 11:00:47.957         ad   main   1382   1382                       app.common_path - user_data_dir = /root/.anydesk, logged_in_user_data_dir = /root/.anydesk, current_home = /root
+
+   info 2022-01-22 11:00:47.957         ad   main   1382   1382                       app.common_path - initialized user = /root/.anydesk, system = /etc/anydesk
+  error 2022-01-22 11:00:47.957         ad   main   1382   1382                                  main - Service is already running.
+   info 2022-01-22 11:00:47.957         ad   main   1382   1382                                  main - Exiting normally.
+explode 2022-01-22 11:00:49.942    control   main   1379   1379             app.named_process_starter - Unable to spawn service
+   info 2022-01-24 04:23:58.372         ad   main   1378   1378                         impl_selector - using avx2
+ * * * * * * * * * * * * * * * * * *
+   info 2022-01-24 04:23:58.372         ad   main   1378   1378                                  main - * AnyDesk Linux Startup *
+   info 2022-01-24 04:23:58.372         ad   main   1378   1378                                  main - * Version 6.1.1 (linux_bsd_rpi_6.1.1 d5cd0aedcfaef0b868e31f90b10395e13dd0a3ef)
+   info 2022-01-24 04:23:58.372         ad   main   1378   1378                                  main - * Build 20210413130604
+   info 2022-01-24 04:23:58.372         ad   main   1378   1378                                  main - * Prefix ad
+   info 2022-01-24 04:23:58.372         ad   main   1378   1378                                  main - * Copyright (C) 2021 AnyDesk Software GmbH *
+   info 2022-01-24 04:23:58.372         ad   main   1378   1378                                  main - 
+   info 2022-01-24 04:23:58.373         ad   main   1378   1378                                  main - Distribution Info: CentOS Linux 7 (Core)
+   info 2022-01-24 04:23:58.373         ad   main   1378   1378                                  main - Found GLib Version: 2.56.
+   info 2022-01-24 04:23:58.382         ad   main   1378   1378                       app.common_path - user_data_dir = /root/.anydesk, logged_in_user_data_dir = /root/.anydesk, current_home = /root
+
+   info 2022-01-24 04:23:58.382         ad   main   1378   1378                       app.common_path - initialized user = /root/.anydesk, system = /etc/anydesk
+explode 2022-01-24 04:23:58.421       tray   main   1378   1378                   unix_base.x11_tools - Cannot open display
+   info 2022-01-27 15:10:21.313         ad   main  29750  29750                         impl_selector - using avx2
+ * * * * * * * * * * * * * * * * * *
+   info 2022-01-27 15:10:21.314         ad   main  29750  29750                                  main - * AnyDesk Linux Startup *
+   info 2022-01-27 15:10:21.314         ad   main  29750  29750                                  main - * Version 6.1.1 (linux_bsd_rpi_6.1.1 d5cd0aedcfaef0b868e31f90b10395e13dd0a3ef)
+   info 2022-01-27 15:10:21.314         ad   main  29750  29750                                  main - * Build 20210413130604
+   info 2022-01-27 15:10:21.314         ad   main  29750  29750                                  main - * Prefix ad
+   info 2022-01-27 15:10:21.314         ad   main  29750  29750                                  main - * Copyright (C) 2021 AnyDesk Software GmbH *
+   info 2022-01-27 15:10:21.314         ad   main  29750  29750                                  main - 
+   info 2022-01-27 15:10:21.338         ad   main  29750  29750                                  main - Distribution Info: CentOS Linux 7 (Core)
+   info 2022-01-27 15:10:21.338         ad   main  29750  29750                                  main - Found GLib Version: 2.56.
+   info 2022-01-27 15:10:21.419         ad   main  29750  29750                       app.common_path - user_data_dir = /home/chaithu/.anydesk, logged_in_user_data_dir = /home/chaithu/.anydesk, current_home = /home/chaithu
+
+   info 2022-01-27 15:10:21.444         ad   main  29750  29750                       app.common_path - initialized user = /home/chaithu/.anydesk, system = /etc/anydesk
+   info 2022-01-27 15:10:21.445         ad   main  29750  29750                       app.common_path - user_data_dir = /home/chaithu/.anydesk, logged_in_user_data_dir = /home/chaithu/.anydesk, current_home = /home/chaithu
+
+   info 2022-01-27 15:10:21.445         ad   main  29750  29750                       app.common_path - initialized user = /home/chaithu/.anydesk, system = /etc/anydesk
+   info 2022-01-27 15:10:21.445         ad   main  29750  29750                                  main - Starting global settings process (29750).
+   info 2022-01-27 15:10:21.489 global_settings   main  29750  29750                           gui.gui_app - DPI scaling: 1.00 / 1.00
+   info 2022-01-27 15:10:21.489 global_settings   main  29750  29750                           gui.gui_app - Using std-resolution bitmaps.
+   info 2022-01-27 15:10:21.516 global_settings   main  29750  29750                       base.signal.hub - 1 threads.
+   info 2022-01-27 15:10:22.404 global_settings   ctrl  29750  29756                   gui.global_settings - Global settings startup.
+   info 2022-01-27 15:10:22.404 global_settings   ctrl  29750  29756                   fiber.ipc_namespace - Global: yes
+  error 2022-01-27 15:10:22.444 global_settings   ctrl  29750  29756              base.signal.global.event - Cannot set the subsignal count to a smaller or equal value.
+  error 2022-01-27 15:10:22.444 global_settings   wrk0  29750  29757              base.prot.packet_factory - Invalid packet received (type=42, 0 bytes).
+  error 2022-01-27 15:10:22.470 global_settings   wrk0  29750  29757                        hub_ipc_socket - IPC packet deserialization failed.
+   info 2022-01-27 15:10:40.461 global_settings   ctrl  29750  29756                   gui.global_settings - Global settings shutdown.
+   info 2022-01-27 15:10:40.461 global_settings   ctrl  29750  29756                       base.signal.hub - Control quit.
+   info 2022-01-27 15:10:40.465 global_settings   main  29750  29750              base.prot.job_dispatcher - 0 undelivered packets.
+   info 2022-01-27 15:10:40.466 global_settings   main  29750  29750                                  main - Exiting normally.
+   info 2022-01-30 12:56:59.229         ad   main   1377   1377                         impl_selector - using avx2
+ * * * * * * * * * * * * * * * * * *
+   info 2022-01-30 12:56:59.249         ad   main   1377   1377                                  main - * AnyDesk Linux Startup *
+   info 2022-01-30 12:56:59.249         ad   main   1377   1377                                  main - * Version 6.1.1 (linux_bsd_rpi_6.1.1 d5cd0aedcfaef0b868e31f90b10395e13dd0a3ef)
+   info 2022-01-30 12:56:59.249         ad   main   1377   1377                                  main - * Build 20210413130604
+   info 2022-01-30 12:56:59.249         ad   main   1377   1377                                  main - * Prefix ad
+   info 2022-01-30 12:56:59.249         ad   main   1377   1377                                  main - * Copyright (C) 2021 AnyDesk Software GmbH *
+   info 2022-01-30 12:56:59.249         ad   main   1377   1377                                  main - 
+   info 2022-01-30 12:56:59.249         ad   main   1377   1377                                  main - Distribution Info: CentOS Linux 7 (Core)
+   info 2022-01-30 12:56:59.249         ad   main   1377   1377                                  main - Found GLib Version: 2.56.
+warning 2022-01-30 12:56:59.253         ad   main   1377   1377                   fiber.ipc_namespace - Global namespace without service.
+warning 2022-01-30 12:56:59.253         ad   main   1377   1377                   fiber.ipc_namespace - Local namespace without service.
+   info 2022-01-30 12:56:59.253         ad   main   1377   1377                   fiber.ipc_namespace - Global: no
+   info 2022-01-30 12:56:59.253         ad   main   1377   1377                       app.common_path - user_data_dir = /root/.anydesk, logged_in_user_data_dir = /root/.anydesk, current_home = /root
+
+   info 2022-01-30 12:56:59.264         ad   main   1377   1377                       app.common_path - initialized user = /root/.anydesk, system = /root/.anydesk
+   info 2022-01-30 12:56:59.275         ad   main   1380   1380                         impl_selector - using avx2
+ * * * * * * * * * * * * * * * * * *
+   info 2022-01-30 12:56:59.275         ad   main   1380   1380                                  main - * AnyDesk Linux Startup *
+   info 2022-01-30 12:56:59.275         ad   main   1380   1380                                  main - * Version 6.1.1 (linux_bsd_rpi_6.1.1 d5cd0aedcfaef0b868e31f90b10395e13dd0a3ef)
+   info 2022-01-30 12:56:59.275         ad   main   1380   1380                                  main - * Build 20210413130604
+   info 2022-01-30 12:56:59.275         ad   main   1380   1380                                  main - * Prefix ad
+   info 2022-01-30 12:56:59.275         ad   main   1380   1380                                  main - * Copyright (C) 2021 AnyDesk Software GmbH *
+   info 2022-01-30 12:56:59.275         ad   main   1380   1380                                  main - 
+   info 2022-01-30 12:56:59.275         ad   main   1380   1380                                  main - Distribution Info: CentOS Linux 7 (Core)
+   info 2022-01-30 12:56:59.275         ad   main   1380   1380                                  main - Found GLib Version: 2.56.
+   info 2022-01-30 12:56:59.279         ad   main   1380   1380                       app.common_path - user_data_dir = /root/.anydesk, logged_in_user_data_dir = /root/.anydesk, current_home = /root
+
+   info 2022-01-30 12:56:59.279         ad   main   1380   1380                       app.common_path - initialized user = /root/.anydesk, system = /etc/anydesk
+   info 2022-01-30 12:56:59.280         ad   main   1380   1380                       app.common_path - user_data_dir = /root/.anydesk, logged_in_user_data_dir = /root/.anydesk, current_home = /root
+
+   info 2022-01-30 12:56:59.280         ad   main   1380   1380                       app.common_path - initialized user = /root/.anydesk, system = /etc/anydesk
+  error 2022-01-30 12:56:59.280         ad   main   1380   1380                                  main - Service is already running.
+   info 2022-01-30 12:56:59.280         ad   main   1380   1380                                  main - Exiting normally.
+explode 2022-01-30 12:57:01.184    control   main   1377   1377             app.named_process_starter - Unable to spawn service
+   info 2022-01-31 10:37:52.143         ad   main   1380   1380                         impl_selector - using avx2
+ * * * * * * * * * * * * * * * * * *
+   info 2022-01-31 10:37:52.143         ad   main   1380   1380                                  main - * AnyDesk Linux Startup *
+   info 2022-01-31 10:37:52.143         ad   main   1380   1380                                  main - * Version 6.1.1 (linux_bsd_rpi_6.1.1 d5cd0aedcfaef0b868e31f90b10395e13dd0a3ef)
+   info 2022-01-31 10:37:52.143         ad   main   1380   1380                                  main - * Build 20210413130604
+   info 2022-01-31 10:37:52.143         ad   main   1380   1380                                  main - * Prefix ad
+   info 2022-01-31 10:37:52.143         ad   main   1380   1380                                  main - * Copyright (C) 2021 AnyDesk Software GmbH *
+   info 2022-01-31 10:37:52.143         ad   main   1380   1380                                  main - 
+   info 2022-01-31 10:37:52.143         ad   main   1380   1380                                  main - Distribution Info: CentOS Linux 7 (Core)
+   info 2022-01-31 10:37:52.143         ad   main   1380   1380                                  main - Found GLib Version: 2.56.
+warning 2022-01-31 10:37:52.146         ad   main   1380   1380                   fiber.ipc_namespace - Global namespace without service.
+warning 2022-01-31 10:37:52.146         ad   main   1380   1380                   fiber.ipc_namespace - Local namespace without service.
+   info 2022-01-31 10:37:52.146         ad   main   1380   1380                   fiber.ipc_namespace - Global: no
+   info 2022-01-31 10:37:52.146         ad   main   1380   1380                       app.common_path - user_data_dir = /root/.anydesk, logged_in_user_data_dir = /root/.anydesk, current_home = /root
+
+   info 2022-01-31 10:37:52.169         ad   main   1380   1380                       app.common_path - initialized user = /root/.anydesk, system = /root/.anydesk
+   info 2022-01-31 10:37:52.178         ad   main   1383   1383                         impl_selector - using avx2
+ * * * * * * * * * * * * * * * * * *
+   info 2022-01-31 10:37:52.178         ad   main   1383   1383                                  main - * AnyDesk Linux Startup *
+   info 2022-01-31 10:37:52.178         ad   main   1383   1383                                  main - * Version 6.1.1 (linux_bsd_rpi_6.1.1 d5cd0aedcfaef0b868e31f90b10395e13dd0a3ef)
+   info 2022-01-31 10:37:52.178         ad   main   1383   1383                                  main - * Build 20210413130604
+   info 2022-01-31 10:37:52.178         ad   main   1383   1383                                  main - * Prefix ad
+   info 2022-01-31 10:37:52.178         ad   main   1383   1383                                  main - * Copyright (C) 2021 AnyDesk Software GmbH *
+   info 2022-01-31 10:37:52.178         ad   main   1383   1383                                  main - 
+   info 2022-01-31 10:37:52.178         ad   main   1383   1383                                  main - Distribution Info: CentOS Linux 7 (Core)
+   info 2022-01-31 10:37:52.178         ad   main   1383   1383                                  main - Found GLib Version: 2.56.
+warning 2022-01-31 10:37:52.182         ad   main   1383   1383                   fiber.ipc_namespace - Global namespace without service.
+warning 2022-01-31 10:37:52.182         ad   main   1383   1383                   fiber.ipc_namespace - Local namespace without service.
+   info 2022-01-31 10:37:52.182         ad   main   1383   1383                   fiber.ipc_namespace - Global: no
+   info 2022-01-31 10:37:52.183         ad   main   1383   1383                       app.common_path - user_data_dir = /root/.anydesk, logged_in_user_data_dir = /root/.anydesk, current_home = /root
+
+   info 2022-01-31 10:37:52.183         ad   main   1383   1383                       app.common_path - initialized user = /root/.anydesk, system = /root/.anydesk
+   info 2022-01-31 10:37:52.183         ad   main   1383   1383                       app.common_path - user_data_dir = /root/.anydesk, logged_in_user_data_dir = /root/.anydesk, current_home = /root
+
+   info 2022-01-31 10:37:52.183         ad   main   1383   1383                       app.common_path - initialized user = /root/.anydesk, system = /root/.anydesk
+   info 2022-01-31 10:37:52.183  local_svc   main   1383   1383                                  main - Starting local service process (1383).
+   info 2022-01-31 10:37:52.194  local_svc   main   1383   1383                       fiber.scheduler - Spawning root fiber 1.
+   info 2022-01-31 10:37:52.199  local_svc   main   1383   1383                       fiber.scheduler - Scheduler started.
+   info 2022-01-31 10:37:52.199  local_svc   main   1383   1383    1                      app.service - Opening the IPC namespace.
+   info 2022-01-31 10:37:52.199  local_svc   main   1383   1383    1              fiber.ipc_namespace - Global: no
+   info 2022-01-31 10:37:52.199  local_svc   main   1383   1383    1                      app.service - Logging into the IPC namespace.
+   info 2022-01-31 10:37:52.200  local_svc   main   1383   1383    1                      app.service - Starting to supervise the IPC namespace.
+   info 2022-01-31 10:37:52.200  local_svc   main   1383   1383    1                      app.service - Starting the connector.
+   info 2022-01-31 10:37:52.214  local_svc   main   1383   1383    1            anynet.connection_mgr - Generating a new certificate and key.
+explode 2022-01-31 10:37:52.300       tray   main   1380   1380                   unix_base.x11_tools - Cannot open display
+   info 2022-01-31 10:37:52.320  local_svc   main   1383   1383    1            anynet.connection_mgr - 2 CA certificate(s) loaded.
+   info 2022-01-31 10:37:52.320  local_svc   main   1383   1383    1                  fiber.scheduler - Spawning root fiber 2.
+   info 2022-01-31 10:37:52.320  local_svc   main   1383   1383    1                  fiber.scheduler - Spawning root fiber 3.
+   info 2022-01-31 10:37:52.320  local_svc   main   1383   1383    1                  fiber.scheduler - Spawning root fiber 4.
+   info 2022-01-31 10:37:52.320  local_svc   main   1383   1383    1                      app.service - Setting up the listen sockets.
+   info 2022-01-31 10:37:52.321  local_svc   main   1383   1383    1                  fiber.scheduler - Spawning root fiber 5.
+   info 2022-01-31 10:37:52.321  local_svc   main   1383   1383    1                      app.service - Service startup completed.
+   info 2022-01-31 10:37:52.321  local_svc   main   1383   1383    1            app.discovery_manager - Updated Discovery settings: repeat interval (1000), repeat limit (10), buffer interval (5000), port range (3)
+   info 2022-01-31 10:37:52.321  local_svc   main   1383   1383    1            app.discovery_manager - Starting Discovery.
+   info 2022-01-31 10:37:52.321  local_svc   main   1383   1383    1                   ad.wol_service - Starting WOL service.
+   info 2022-01-31 10:37:52.321  local_svc   main   1383   1383    1                  fiber.scheduler - Spawning child fiber 6 (parent 1).
+   info 2022-01-31 10:37:52.321  local_svc   main   1383   1383    1                      app.service - Waiting for messages.
+   info 2022-01-31 10:37:52.321  local_svc   main   1383   1383    1                      app.service - Process start: 1380 (control:4294967295).
+   info 2022-01-31 10:37:52.321  local_svc   main   1383   1383    2            anynet.connection_mgr - Starting connection manager fiber.
+   info 2022-01-31 10:37:52.321  local_svc   main   1383   1383    3           anynet.main_relay_conn - Starting main relay connection.
+   info 2022-01-31 10:37:52.321  local_svc   main   1383   1383    3           anynet.main_relay_conn - No connect addresses found. Starting with boot relays.
+   info 2022-01-31 10:37:52.321  local_svc   main   1383   1383    3           anynet.relay_connector - New execution plan:
+   info 2022-01-31 10:37:52.321  local_svc   main   1383   1383    3           anynet.relay_connector - Relay 0:
+   info 2022-01-31 10:37:52.321  local_svc   main   1383   1383    3           anynet.relay_connector -  boot-01.net.anydesk.com:443 (ID 1, offset 0)
+   info 2022-01-31 10:37:52.321  local_svc   main   1383   1383    3           anynet.relay_connector -  boot-01.net.anydesk.com:80 (ID 3, offset 2000)
+   info 2022-01-31 10:37:52.321  local_svc   main   1383   1383    3           anynet.relay_connector -  boot-01.net.anydesk.com:6568 (ID 5, offset 4000)
+   info 2022-01-31 10:37:52.321  local_svc   main   1383   1383    3           anynet.relay_connector -  boot-01.net.anydesk.com:443 (ID 7, offset 6000, with proxy)
+   info 2022-01-31 10:37:52.321  local_svc   main   1383   1383    3           anynet.relay_connector -  boot-01.net.anydesk.com:80 (ID 9, offset 8000, with proxy)
+   info 2022-01-31 10:37:52.321  local_svc   main   1383   1383    3           anynet.relay_connector -  boot-01.net.anydesk.com:6568 (ID 11, offset 10000, with proxy)
+   info 2022-01-31 10:37:52.321  local_svc   main   1383   1383    3           anynet.relay_connector - Relay 1:
+   info 2022-01-31 10:37:52.321  local_svc   main   1383   1383    3           anynet.relay_connector -  boot-02.net.anydesk.com:443 (ID 13, offset 12000)
+   info 2022-01-31 10:37:52.321  local_svc   main   1383   1383    3           anynet.relay_connector -  boot-02.net.anydesk.com:80 (ID 15, offset 14000)
+   info 2022-01-31 10:37:52.321  local_svc   main   1383   1383    3           anynet.relay_connector -  boot-02.net.anydesk.com:6568 (ID 17, offset 16000)
+   info 2022-01-31 10:37:52.321  local_svc   main   1383   1383    3           anynet.relay_connector -  boot-02.net.anydesk.com:443 (ID 19, offset 18000, with proxy)
+   info 2022-01-31 10:37:52.321  local_svc   main   1383   1383    3           anynet.relay_connector -  boot-02.net.anydesk.com:80 (ID 21, offset 20000, with proxy)
+   info 2022-01-31 10:37:52.321  local_svc   main   1383   1383    3           anynet.relay_connector -  boot-02.net.anydesk.com:6568 (ID 23, offset 22000, with proxy)
+   info 2022-01-31 10:37:52.321  local_svc   main   1383   1383    3           anynet.relay_connector - Wait for previous tasks to finish (task 26).
+   info 2022-01-31 10:37:52.321  local_svc   main   1383   1383    3           anynet.relay_connector - Pause for 1000 to 48000 ms and repeat (task 27).
+   info 2022-01-31 10:37:52.322  local_svc   main   1383   1383    3           anynet.relay_connector - Plan complete.
+   info 2022-01-31 10:37:52.322  local_svc   main   1383   1383    3                  fiber.exec_plan - Running execution plan.
+   info 2022-01-31 10:37:52.322  local_svc   main   1383   1383    3                  fiber.scheduler - Spawning child fiber 7 (parent 3).
+   info 2022-01-31 10:37:52.322  local_svc   main   1383   1383    3                  fiber.exec_plan - Waiting for 2000 msecs (2).
+   info 2022-01-31 10:37:52.322  local_svc   main   1383   1383    4                anynet.tcp_socket - Listening on port 7070.
+  error 2022-01-31 10:37:52.421  local_svc   main   1383   1383    4              anynet.tcp_acceptor - Port 7070 is already in use.
+   info 2022-01-31 10:37:52.421  local_svc   main   1383   1383    4                anynet.tcp_socket - Listening on port 7071.
+   info 2022-01-31 10:37:52.421  local_svc   main   1383   1383    4              anynet.tcp_acceptor - Listening on TCP port 7071.
+   info 2022-01-31 10:37:52.421  local_svc   main   1383   1383    5                anynet.any_socket - Listen fiber started.
+   info 2022-01-31 10:37:52.422  local_svc   main   1383   1383    6                      anynet.conn - Request before connect. Queueing.
+   info 2022-01-31 10:37:52.422  local_svc   main   1383   1383    7                  fiber.exec_plan - Running task 1 (timeout 30000).
+   info 2022-01-31 10:37:52.422  local_svc   main   1383   1383    7                  fiber.scheduler - Spawning child fiber 8 (parent 7).
+   info 2022-01-31 10:37:52.422  local_svc   main   1383   1383    7           anynet.relay_connector - Connecting to boot-01.net.anydesk.com:443.
+warning 2022-01-31 10:37:54.202  local_svc   main   1383   1383                   fiber.ipc_namespace - Zombie process detected (1380). Fixing the state.
+   info 2022-01-31 10:37:56.205  local_svc   main   1383   1383    1                      app.service - Process stop: 1380.
+   info 2022-01-31 10:37:56.206  local_svc   main   1383   1383    3                  fiber.scheduler - Spawning child fiber 9 (parent 3).
+   info 2022-01-31 10:37:56.206  local_svc   main   1383   1383    3                  fiber.exec_plan - Waiting for 2000 msecs (4).
+   info 2022-01-31 10:37:56.206  local_svc   main   1383   1383    9                  fiber.exec_plan - Running task 3 (timeout 30000).
+   info 2022-01-31 10:37:56.206  local_svc   main   1383   1383    9                  fiber.scheduler - Spawning child fiber 10 (parent 9).
+   info 2022-01-31 10:37:56.206  local_svc   main   1383   1383    9           anynet.relay_connector - Connecting to boot-01.net.anydesk.com:80.
+   info 2022-01-31 10:37:58.207  local_svc   main   1383   1383    3                  fiber.scheduler - Spawning child fiber 11 (parent 3).
+   info 2022-01-31 10:37:58.207  local_svc   main   1383   1383    3                  fiber.exec_plan - Waiting for 2000 msecs (6).
+   info 2022-01-31 10:37:58.208  local_svc   main   1383   1383   11                  fiber.exec_plan - Running task 5 (timeout 30000).
+   info 2022-01-31 10:37:58.208  local_svc   main   1383   1383   11                  fiber.scheduler - Spawning child fiber 12 (parent 11).
+   info 2022-01-31 10:37:58.208  local_svc   main   1383   1383   11           anynet.relay_connector - Connecting to boot-01.net.anydesk.com:6568.
+   info 2022-01-31 10:38:00.210  local_svc   main   1383   1383    3                  fiber.scheduler - Spawning child fiber 13 (parent 3).
+   info 2022-01-31 10:38:00.210  local_svc   main   1383   1383    3                  fiber.exec_plan - Waiting for 2000 msecs (8).
+   info 2022-01-31 10:38:00.210  local_svc   main   1383   1383   13                  fiber.exec_plan - Running task 7 (timeout 30000).
+   info 2022-01-31 10:38:00.210  local_svc   main   1383   1383   13                  fiber.scheduler - Spawning child fiber 14 (parent 13).
+   info 2022-01-31 10:38:00.210  local_svc   main   1383   1383   13           anynet.relay_connector - No proxy. Aborting.
+   info 2022-01-31 10:38:00.228  local_svc   main   1383   1383                       fiber.scheduler - Fiber 13 requested quit of fiber 14.
+   info 2022-01-31 10:38:00.229  local_svc   main   1383   1383                       fiber.scheduler - Fiber 14 terminated.
+   info 2022-01-31 10:38:00.229  local_svc   main   1383   1383                       fiber.scheduler - Fiber 13 terminated.
+   info 2022-01-31 10:38:02.213  local_svc   main   1383   1383    3                  fiber.scheduler - Spawning child fiber 15 (parent 3).
+   info 2022-01-31 10:38:02.213  local_svc   main   1383   1383    3                  fiber.exec_plan - Waiting for 2000 msecs (10).
+   info 2022-01-31 10:38:02.213  local_svc   main   1383   1383   15                  fiber.exec_plan - Running task 9 (timeout 30000).
+   info 2022-01-31 10:38:02.213  local_svc   main   1383   1383   15                  fiber.scheduler - Spawning child fiber 16 (parent 15).
+   info 2022-01-31 10:38:02.213  local_svc   main   1383   1383   15           anynet.relay_connector - No proxy. Aborting.
+   info 2022-01-31 10:38:02.213  local_svc   main   1383   1383                       fiber.scheduler - Fiber 15 requested quit of fiber 16.
+   info 2022-01-31 10:38:02.213  local_svc   main   1383   1383                       fiber.scheduler - Fiber 16 terminated.
+   info 2022-01-31 10:38:02.213  local_svc   main   1383   1383                       fiber.scheduler - Fiber 15 terminated.
+warning 2022-01-31 10:38:02.422  local_svc   main   1383   1383    6                      anynet.conn - Request timeout.
+  error 2022-01-31 10:38:02.422  local_svc   main   1383   1383    6                   ad.wol_service - Could not update WOL information about this machine. WOL might not work. (result_timeout)
+   info 2022-01-31 10:38:04.214  local_svc   main   1383   1383    3                  fiber.scheduler - Spawning child fiber 17 (parent 3).
+   info 2022-01-31 10:38:04.214  local_svc   main   1383   1383    3                  fiber.exec_plan - Waiting for 2000 msecs (12).
+   info 2022-01-31 10:38:04.214  local_svc   main   1383   1383   17                  fiber.exec_plan - Running task 11 (timeout 30000).
+   info 2022-01-31 10:38:04.214  local_svc   main   1383   1383   17                  fiber.scheduler - Spawning child fiber 18 (parent 17).
+   info 2022-01-31 10:38:04.214  local_svc   main   1383   1383   17           anynet.relay_connector - No proxy. Aborting.
+   info 2022-01-31 10:38:04.214  local_svc   main   1383   1383                       fiber.scheduler - Fiber 17 requested quit of fiber 18.
+   info 2022-01-31 10:38:04.214  local_svc   main   1383   1383                       fiber.scheduler - Fiber 18 terminated.
+   info 2022-01-31 10:38:04.214  local_svc   main   1383   1383                       fiber.scheduler - Fiber 17 terminated.
+  error 2022-01-31 10:38:04.868  local_svc   main   1383   1383    7              anynet.dns_resolver - DNS name "boot-01.net.anydesk.com" couldn't be resolved (h_errno_1, result_timeout).
+   info 2022-01-31 10:38:04.868  local_svc   main   1383   1383    7           anynet.relay_connector - Error on boot-01.net.anydesk.com:443: result_timeout.
+   info 2022-01-31 10:38:04.869  local_svc   main   1383   1383                       fiber.scheduler - Fiber 7 requested quit of fiber 8.
+   info 2022-01-31 10:38:04.869  local_svc   main   1383   1383                       fiber.scheduler - Fiber 8 terminated.
+   info 2022-01-31 10:38:04.869  local_svc   main   1383   1383                       fiber.scheduler - Fiber 7 terminated.
+   info 2022-01-31 10:38:06.216  local_svc   main   1383   1383    1                      app.service - Initiating auto-shutdown.
+   info 2022-01-31 10:38:06.216  local_svc   main   1383   1383                       fiber.scheduler - Fiber 1 requested quit of fiber 6.
+   info 2022-01-31 10:38:06.216  local_svc   main   1383   1383                       fiber.scheduler - Fiber 6 terminated.
+   info 2022-01-31 10:38:06.216  local_svc   main   1383   1383                       fiber.scheduler - Fiber 1 requested quit of fiber 5.
+   info 2022-01-31 10:38:06.216  local_svc   main   1383   1383    5                anynet.any_socket - Listen fiber stopped.
+   info 2022-01-31 10:38:06.217  local_svc   main   1383   1383                       fiber.scheduler - Fiber 5 terminated.
+   info 2022-01-31 10:38:06.217  local_svc   main   1383   1383    1            anynet.connection_mgr - Connection manager shutdown.
+   info 2022-01-31 10:38:06.217  local_svc   main   1383   1383                       fiber.scheduler - Fiber 1 requested quit of fiber 3.
+   info 2022-01-31 10:38:06.217  local_svc   main   1383   1383                       fiber.scheduler - Fiber 3 requested quit of fiber 9.
+   info 2022-01-31 10:38:07.341  local_svc   main   1383   1383    9           anynet.relay_connector - Error on boot-01.net.anydesk.com:80: result_quit.
+   info 2022-01-31 10:38:07.341  local_svc   main   1383   1383                       fiber.scheduler - Fiber 9 requested quit of fiber 10.
+   info 2022-01-31 10:38:07.341  local_svc   main   1383   1383                       fiber.scheduler - Fiber 10 terminated.
+   info 2022-01-31 10:38:07.341  local_svc   main   1383   1383                       fiber.scheduler - Fiber 9 terminated.
+   info 2022-01-31 10:38:07.341  local_svc   main   1383   1383                       fiber.scheduler - Fiber 3 requested quit of fiber 11.
+   info 2022-01-31 10:38:07.342  local_svc   main   1383   1383   11           anynet.relay_connector - Error on boot-01.net.anydesk.com:6568: result_quit.
+   info 2022-01-31 10:38:07.342  local_svc   main   1383   1383                       fiber.scheduler - Fiber 11 requested quit of fiber 12.
+   info 2022-01-31 10:38:07.342  local_svc   main   1383   1383                       fiber.scheduler - Fiber 12 terminated.
+   info 2022-01-31 10:38:07.342  local_svc   main   1383   1383                       fiber.scheduler - Fiber 11 terminated.
+   info 2022-01-31 10:38:07.342  local_svc   main   1383   1383    3                  fiber.exec_plan - Execution plan quit.
+   info 2022-01-31 10:38:07.343  local_svc   main   1383   1383    3            anynet.connection_mgr - Forcing cleanup.
+  error 2022-01-31 10:38:07.343  local_svc   main   1383   1383    3           anynet.main_relay_conn - Main relay connection failed.
+   info 2022-01-31 10:38:07.343  local_svc   main   1383   1383                       fiber.scheduler - Fiber 3 terminated.
+   info 2022-01-31 10:38:07.343  local_svc   main   1383   1383    2            anynet.connection_mgr - Main relay connection failed (result_quit).
+   info 2022-01-31 10:38:07.343  local_svc   main   1383   1383                       fiber.scheduler - Fiber 1 requested quit of fiber 2.
+   info 2022-01-31 10:38:07.343  local_svc   main   1383   1383    2            anynet.connection_mgr - Connection manager fiber quit.
+   info 2022-01-31 10:38:07.343  local_svc   main   1383   1383                       fiber.scheduler - Fiber 2 terminated.
+   info 2022-01-31 10:38:07.343  local_svc   main   1383   1383                       fiber.scheduler - Fiber 1 requested quit of fiber 4.
+   info 2022-01-31 10:38:07.343  local_svc   main   1383   1383    4              anynet.tcp_acceptor - Received quit.
+   info 2022-02-10 04:01:08.144         ad   main   1382   1382                         impl_selector - using avx2
+ * * * * * * * * * * * * * * * * * *
+   info 2022-02-10 04:01:08.144         ad   main   1382   1382                                  main - * AnyDesk Linux Startup *
+   info 2022-02-10 04:01:08.144         ad   main   1382   1382                                  main - * Version 6.1.1 (linux_bsd_rpi_6.1.1 d5cd0aedcfaef0b868e31f90b10395e13dd0a3ef)
+   info 2022-02-10 04:01:08.144         ad   main   1382   1382                                  main - * Build 20210413130604
+   info 2022-02-10 04:01:08.144         ad   main   1382   1382                                  main - * Prefix ad
+   info 2022-02-10 04:01:08.144         ad   main   1382   1382                                  main - * Copyright (C) 2021 AnyDesk Software GmbH *
+   info 2022-02-10 04:01:08.144         ad   main   1382   1382                                  main - 
+   info 2022-02-10 04:01:08.144         ad   main   1382   1382                                  main - Distribution Info: CentOS Linux 7 (Core)
+   info 2022-02-10 04:01:08.144         ad   main   1382   1382                                  main - Found GLib Version: 2.56.
+warning 2022-02-10 04:01:08.147         ad   main   1382   1382                   fiber.ipc_namespace - Global namespace without service.
+warning 2022-02-10 04:01:08.147         ad   main   1382   1382                   fiber.ipc_namespace - Local namespace without service.
+   info 2022-02-10 04:01:08.147         ad   main   1382   1382                   fiber.ipc_namespace - Global: no
+   info 2022-02-10 04:01:08.147         ad   main   1382   1382                       app.common_path - user_data_dir = /root/.anydesk, logged_in_user_data_dir = /root/.anydesk, current_home = /root
+
+   info 2022-02-10 04:01:08.168         ad   main   1382   1382                       app.common_path - initialized user = /root/.anydesk, system = /root/.anydesk
+   info 2022-02-10 04:01:08.178         ad   main   1385   1385                         impl_selector - using avx2
+ * * * * * * * * * * * * * * * * * *
+   info 2022-02-10 04:01:08.178         ad   main   1385   1385                                  main - * AnyDesk Linux Startup *
+   info 2022-02-10 04:01:08.178         ad   main   1385   1385                                  main - * Version 6.1.1 (linux_bsd_rpi_6.1.1 d5cd0aedcfaef0b868e31f90b10395e13dd0a3ef)
+   info 2022-02-10 04:01:08.178         ad   main   1385   1385                                  main - * Build 20210413130604
+   info 2022-02-10 04:01:08.178         ad   main   1385   1385                                  main - * Prefix ad
+   info 2022-02-10 04:01:08.178         ad   main   1385   1385                                  main - * Copyright (C) 2021 AnyDesk Software GmbH *
+   info 2022-02-10 04:01:08.178         ad   main   1385   1385                                  main - 
+   info 2022-02-10 04:01:08.178         ad   main   1385   1385                                  main - Distribution Info: CentOS Linux 7 (Core)
+   info 2022-02-10 04:01:08.178         ad   main   1385   1385                                  main - Found GLib Version: 2.56.
+   info 2022-02-10 04:01:08.183         ad   main   1385   1385                       app.common_path - user_data_dir = /root/.anydesk, logged_in_user_data_dir = /root/.anydesk, current_home = /root
+
+   info 2022-02-10 04:01:08.183         ad   main   1385   1385                       app.common_path - initialized user = /root/.anydesk, system = /etc/anydesk
+   info 2022-02-10 04:01:08.184         ad   main   1385   1385                       app.common_path - user_data_dir = /root/.anydesk, logged_in_user_data_dir = /root/.anydesk, current_home = /root
+
+   info 2022-02-10 04:01:08.184         ad   main   1385   1385                       app.common_path - initialized user = /root/.anydesk, system = /etc/anydesk
+  error 2022-02-10 04:01:08.184         ad   main   1385   1385                                  main - Service is already running.
+   info 2022-02-10 04:01:08.184         ad   main   1385   1385                                  main - Exiting normally.
+explode 2022-02-10 04:01:10.095    control   main   1382   1382             app.named_process_starter - Unable to spawn service
+   info 2022-02-19 03:39:49.763         ad   main   1376   1376                         impl_selector - using avx2
+ * * * * * * * * * * * * * * * * * *
+   info 2022-02-19 03:39:49.763         ad   main   1376   1376                                  main - * AnyDesk Linux Startup *
+   info 2022-02-19 03:39:49.763         ad   main   1376   1376                                  main - * Version 6.1.1 (linux_bsd_rpi_6.1.1 d5cd0aedcfaef0b868e31f90b10395e13dd0a3ef)
+   info 2022-02-19 03:39:49.764         ad   main   1376   1376                                  main - * Build 20210413130604
+   info 2022-02-19 03:39:49.764         ad   main   1376   1376                                  main - * Prefix ad
+   info 2022-02-19 03:39:49.764         ad   main   1376   1376                                  main - * Copyright (C) 2021 AnyDesk Software GmbH *
+   info 2022-02-19 03:39:49.764         ad   main   1376   1376                                  main - 
+   info 2022-02-19 03:39:49.764         ad   main   1376   1376                                  main - Distribution Info: CentOS Linux 7 (Core)
+   info 2022-02-19 03:39:49.764         ad   main   1376   1376                                  main - Found GLib Version: 2.56.
+warning 2022-02-19 03:39:49.766         ad   main   1376   1376                   fiber.ipc_namespace - Global namespace without service.
+warning 2022-02-19 03:39:49.766         ad   main   1376   1376                   fiber.ipc_namespace - Local namespace without service.
+   info 2022-02-19 03:39:49.766         ad   main   1376   1376                   fiber.ipc_namespace - Global: no
+   info 2022-02-19 03:39:49.766         ad   main   1376   1376                       app.common_path - user_data_dir = /root/.anydesk, logged_in_user_data_dir = /root/.anydesk, current_home = /root
+
+   info 2022-02-19 03:39:49.791         ad   main   1376   1376                       app.common_path - initialized user = /root/.anydesk, system = /root/.anydesk
+   info 2022-02-19 03:39:49.801         ad   main   1379   1379                         impl_selector - using avx2
+ * * * * * * * * * * * * * * * * * *
+   info 2022-02-19 03:39:49.801         ad   main   1379   1379                                  main - * AnyDesk Linux Startup *
+   info 2022-02-19 03:39:49.801         ad   main   1379   1379                                  main - * Version 6.1.1 (linux_bsd_rpi_6.1.1 d5cd0aedcfaef0b868e31f90b10395e13dd0a3ef)
+   info 2022-02-19 03:39:49.801         ad   main   1379   1379                                  main - * Build 20210413130604
+   info 2022-02-19 03:39:49.801         ad   main   1379   1379                                  main - * Prefix ad
+   info 2022-02-19 03:39:49.801         ad   main   1379   1379                                  main - * Copyright (C) 2021 AnyDesk Software GmbH *
+   info 2022-02-19 03:39:49.801         ad   main   1379   1379                                  main - 
+   info 2022-02-19 03:39:49.801         ad   main   1379   1379                                  main - Distribution Info: CentOS Linux 7 (Core)
+   info 2022-02-19 03:39:49.801         ad   main   1379   1379                                  main - Found GLib Version: 2.56.
+   info 2022-02-19 03:39:49.807         ad   main   1379   1379                       app.common_path - user_data_dir = /root/.anydesk, logged_in_user_data_dir = /root/.anydesk, current_home = /root
+
+   info 2022-02-19 03:39:49.807         ad   main   1379   1379                       app.common_path - initialized user = /root/.anydesk, system = /etc/anydesk
+   info 2022-02-19 03:39:49.808         ad   main   1379   1379                       app.common_path - user_data_dir = /root/.anydesk, logged_in_user_data_dir = /root/.anydesk, current_home = /root
+
+   info 2022-02-19 03:39:49.808         ad   main   1379   1379                       app.common_path - initialized user = /root/.anydesk, system = /etc/anydesk
+  error 2022-02-19 03:39:49.808         ad   main   1379   1379                                  main - Service is already running.
+   info 2022-02-19 03:39:49.808         ad   main   1379   1379                                  main - Exiting normally.
+explode 2022-02-19 03:39:51.751    control   main   1376   1376             app.named_process_starter - Unable to spawn service
+   info 2022-02-26 06:05:52.233         ad   main   1379   1379                         impl_selector - using avx2
+ * * * * * * * * * * * * * * * * * *
+   info 2022-02-26 06:05:52.233         ad   main   1379   1379                                  main - * AnyDesk Linux Startup *
+   info 2022-02-26 06:05:52.233         ad   main   1379   1379                                  main - * Version 6.1.1 (linux_bsd_rpi_6.1.1 d5cd0aedcfaef0b868e31f90b10395e13dd0a3ef)
+   info 2022-02-26 06:05:52.233         ad   main   1379   1379                                  main - * Build 20210413130604
+   info 2022-02-26 06:05:52.233         ad   main   1379   1379                                  main - * Prefix ad
+   info 2022-02-26 06:05:52.233         ad   main   1379   1379                                  main - * Copyright (C) 2021 AnyDesk Software GmbH *
+   info 2022-02-26 06:05:52.233         ad   main   1379   1379                                  main - 
+   info 2022-02-26 06:05:52.233         ad   main   1379   1379                                  main - Distribution Info: CentOS Linux 7 (Core)
+   info 2022-02-26 06:05:52.233         ad   main   1379   1379                                  main - Found GLib Version: 2.56.
+warning 2022-02-26 06:05:52.235         ad   main   1379   1379                   fiber.ipc_namespace - Global namespace without service.
+warning 2022-02-26 06:05:52.235         ad   main   1379   1379                   fiber.ipc_namespace - Local namespace without service.
+   info 2022-02-26 06:05:52.235         ad   main   1379   1379                   fiber.ipc_namespace - Global: no
+   info 2022-02-26 06:05:52.236         ad   main   1379   1379                       app.common_path - user_data_dir = /root/.anydesk, logged_in_user_data_dir = /root/.anydesk, current_home = /root
+
+   info 2022-02-26 06:05:52.257         ad   main   1379   1379                       app.common_path - initialized user = /root/.anydesk, system = /root/.anydesk
+   info 2022-02-26 06:05:52.269         ad   main   1382   1382                         impl_selector - using avx2
+ * * * * * * * * * * * * * * * * * *
+   info 2022-02-26 06:05:52.269         ad   main   1382   1382                                  main - * AnyDesk Linux Startup *
+   info 2022-02-26 06:05:52.269         ad   main   1382   1382                                  main - * Version 6.1.1 (linux_bsd_rpi_6.1.1 d5cd0aedcfaef0b868e31f90b10395e13dd0a3ef)
+   info 2022-02-26 06:05:52.269         ad   main   1382   1382                                  main - * Build 20210413130604
+   info 2022-02-26 06:05:52.269         ad   main   1382   1382                                  main - * Prefix ad
+   info 2022-02-26 06:05:52.269         ad   main   1382   1382                                  main - * Copyright (C) 2021 AnyDesk Software GmbH *
+   info 2022-02-26 06:05:52.269         ad   main   1382   1382                                  main - 
+   info 2022-02-26 06:05:52.269         ad   main   1382   1382                                  main - Distribution Info: CentOS Linux 7 (Core)
+   info 2022-02-26 06:05:52.269         ad   main   1382   1382                                  main - Found GLib Version: 2.56.
+   info 2022-02-26 06:05:52.272         ad   main   1382   1382                       app.common_path - user_data_dir = /root/.anydesk, logged_in_user_data_dir = /root/.anydesk, current_home = /root
+
+   info 2022-02-26 06:05:52.272         ad   main   1382   1382                       app.common_path - initialized user = /root/.anydesk, system = /etc/anydesk
+   info 2022-02-26 06:05:52.272         ad   main   1382   1382                       app.common_path - user_data_dir = /root/.anydesk, logged_in_user_data_dir = /root/.anydesk, current_home = /root
+
+   info 2022-02-26 06:05:52.272         ad   main   1382   1382                       app.common_path - initialized user = /root/.anydesk, system = /etc/anydesk
+  error 2022-02-26 06:05:52.272         ad   main   1382   1382                                  main - Service is already running.
+   info 2022-02-26 06:05:52.272         ad   main   1382   1382                                  main - Exiting normally.
+explode 2022-02-26 06:05:54.227    control   main   1379   1379             app.named_process_starter - Unable to spawn service
+   info 2022-04-04 07:25:31.608         ad   main   1379   1379                         impl_selector - using avx2
+ * * * * * * * * * * * * * * * * * *
+   info 2022-04-04 07:25:31.608         ad   main   1379   1379                                  main - * AnyDesk Linux Startup *
+   info 2022-04-04 07:25:31.608         ad   main   1379   1379                                  main - * Version 6.1.1 (linux_bsd_rpi_6.1.1 d5cd0aedcfaef0b868e31f90b10395e13dd0a3ef)
+   info 2022-04-04 07:25:31.608         ad   main   1379   1379                                  main - * Build 20210413130604
+   info 2022-04-04 07:25:31.608         ad   main   1379   1379                                  main - * Prefix ad
+   info 2022-04-04 07:25:31.608         ad   main   1379   1379                                  main - * Copyright (C) 2021 AnyDesk Software GmbH *
+   info 2022-04-04 07:25:31.608         ad   main   1379   1379                                  main - 
+   info 2022-04-04 07:25:31.608         ad   main   1379   1379                                  main - Distribution Info: CentOS Linux 7 (Core)
+   info 2022-04-04 07:25:31.608         ad   main   1379   1379                                  main - Found GLib Version: 2.56.
+   info 2022-04-04 07:25:31.617         ad   main   1379   1379                       app.common_path - user_data_dir = /root/.anydesk, logged_in_user_data_dir = /root/.anydesk, current_home = /root
+
+   info 2022-04-04 07:25:31.618         ad   main   1379   1379                       app.common_path - initialized user = /root/.anydesk, system = /etc/anydesk
+explode 2022-04-04 07:25:31.643       tray   main   1379   1379                   unix_base.x11_tools - Cannot open display
+   info 2022-04-15 04:56:27.662         ad   main   1381   1381                         impl_selector - using avx2
+ * * * * * * * * * * * * * * * * * *
+   info 2022-04-15 04:56:27.662         ad   main   1381   1381                                  main - * AnyDesk Linux Startup *
+   info 2022-04-15 04:56:27.662         ad   main   1381   1381                                  main - * Version 6.1.1 (linux_bsd_rpi_6.1.1 d5cd0aedcfaef0b868e31f90b10395e13dd0a3ef)
+   info 2022-04-15 04:56:27.662         ad   main   1381   1381                                  main - * Build 20210413130604
+   info 2022-04-15 04:56:27.662         ad   main   1381   1381                                  main - * Prefix ad
+   info 2022-04-15 04:56:27.663         ad   main   1381   1381                                  main - * Copyright (C) 2021 AnyDesk Software GmbH *
+   info 2022-04-15 04:56:27.663         ad   main   1381   1381                                  main - 
+   info 2022-04-15 04:56:27.663         ad   main   1381   1381                                  main - Distribution Info: CentOS Linux 7 (Core)
+   info 2022-04-15 04:56:27.663         ad   main   1381   1381                                  main - Found GLib Version: 2.56.
+warning 2022-04-15 04:56:27.667         ad   main   1381   1381                   fiber.ipc_namespace - Global namespace without service.
+warning 2022-04-15 04:56:27.667         ad   main   1381   1381                   fiber.ipc_namespace - Local namespace without service.
+   info 2022-04-15 04:56:27.667         ad   main   1381   1381                   fiber.ipc_namespace - Global: no
+   info 2022-04-15 04:56:27.667         ad   main   1381   1381                       app.common_path - user_data_dir = /root/.anydesk, logged_in_user_data_dir = /root/.anydesk, current_home = /root
+
+   info 2022-04-15 04:56:27.671         ad   main   1381   1381                       app.common_path - initialized user = /root/.anydesk, system = /root/.anydesk
+   info 2022-04-15 04:56:27.680         ad   main   1384   1384                         impl_selector - using avx2
+ * * * * * * * * * * * * * * * * * *
+   info 2022-04-15 04:56:27.680         ad   main   1384   1384                                  main - * AnyDesk Linux Startup *
+   info 2022-04-15 04:56:27.680         ad   main   1384   1384                                  main - * Version 6.1.1 (linux_bsd_rpi_6.1.1 d5cd0aedcfaef0b868e31f90b10395e13dd0a3ef)
+   info 2022-04-15 04:56:27.680         ad   main   1384   1384                                  main - * Build 20210413130604
+   info 2022-04-15 04:56:27.680         ad   main   1384   1384                                  main - * Prefix ad
+   info 2022-04-15 04:56:27.680         ad   main   1384   1384                                  main - * Copyright (C) 2021 AnyDesk Software GmbH *
+   info 2022-04-15 04:56:27.680         ad   main   1384   1384                                  main - 
+   info 2022-04-15 04:56:27.680         ad   main   1384   1384                                  main - Distribution Info: CentOS Linux 7 (Core)
+   info 2022-04-15 04:56:27.680         ad   main   1384   1384                                  main - Found GLib Version: 2.56.
+warning 2022-04-15 04:56:27.684         ad   main   1384   1384                   fiber.ipc_namespace - Global namespace without service.
+warning 2022-04-15 04:56:27.684         ad   main   1384   1384                   fiber.ipc_namespace - Local namespace without service.
+   info 2022-04-15 04:56:27.684         ad   main   1384   1384                   fiber.ipc_namespace - Global: no
+   info 2022-04-15 04:56:27.684         ad   main   1384   1384                       app.common_path - user_data_dir = /root/.anydesk, logged_in_user_data_dir = /root/.anydesk, current_home = /root
+
+   info 2022-04-15 04:56:27.684         ad   main   1384   1384                       app.common_path - initialized user = /root/.anydesk, system = /root/.anydesk
+   info 2022-04-15 04:56:27.685         ad   main   1384   1384                       app.common_path - user_data_dir = /root/.anydesk, logged_in_user_data_dir = /root/.anydesk, current_home = /root
+
+   info 2022-04-15 04:56:27.685         ad   main   1384   1384                       app.common_path - initialized user = /root/.anydesk, system = /root/.anydesk
+   info 2022-04-15 04:56:27.685  local_svc   main   1384   1384                                  main - Starting local service process (1384).
+   info 2022-04-15 04:56:27.690  local_svc   main   1384   1384                       fiber.scheduler - Spawning root fiber 1.
+   info 2022-04-15 04:56:27.691  local_svc   main   1384   1384                       fiber.scheduler - Scheduler started.
+   info 2022-04-15 04:56:27.691  local_svc   main   1384   1384    1                      app.service - Opening the IPC namespace.
+   info 2022-04-15 04:56:27.691  local_svc   main   1384   1384    1              fiber.ipc_namespace - Global: no
+   info 2022-04-15 04:56:27.691  local_svc   main   1384   1384    1                      app.service - Logging into the IPC namespace.
+   info 2022-04-15 04:56:27.691  local_svc   main   1384   1384    1                      app.service - Starting to supervise the IPC namespace.
+   info 2022-04-15 04:56:27.691  local_svc   main   1384   1384    1                      app.service - Starting the connector.
+   info 2022-04-15 04:56:27.692  local_svc   main   1384   1384    1            anynet.connection_mgr - Importing certificate and key.
+   info 2022-04-15 04:56:27.693  local_svc   main   1384   1384    1            anynet.connection_mgr - 2 CA certificate(s) loaded.
+   info 2022-04-15 04:56:27.693  local_svc   main   1384   1384    1                  fiber.scheduler - Spawning root fiber 2.
+   info 2022-04-15 04:56:27.716  local_svc   main   1384   1384    1                  fiber.scheduler - Spawning root fiber 3.
+   info 2022-04-15 04:56:27.716  local_svc   main   1384   1384    1                  fiber.scheduler - Spawning root fiber 4.
+   info 2022-04-15 04:56:27.716  local_svc   main   1384   1384    1                      app.service - Setting up the listen sockets.
+   info 2022-04-15 04:56:27.725  local_svc   main   1384   1384    1                  fiber.scheduler - Spawning root fiber 5.
+   info 2022-04-15 04:56:27.725  local_svc   main   1384   1384    1                      app.service - Service startup completed.
+   info 2022-04-15 04:56:27.725  local_svc   main   1384   1384    1            app.discovery_manager - Updated Discovery settings: repeat interval (1000), repeat limit (10), buffer interval (5000), port range (3)
+   info 2022-04-15 04:56:27.725  local_svc   main   1384   1384    1            app.discovery_manager - Starting Discovery.
+   info 2022-04-15 04:56:27.726  local_svc   main   1384   1384    1                   ad.wol_service - Starting WOL service.
+   info 2022-04-15 04:56:27.726  local_svc   main   1384   1384    1                  fiber.scheduler - Spawning child fiber 6 (parent 1).
+   info 2022-04-15 04:56:27.726  local_svc   main   1384   1384    1                      app.service - Waiting for messages.
+   info 2022-04-15 04:56:27.726  local_svc   main   1384   1384    1                      app.service - Process start: 1381 (control:4294967295).
+   info 2022-04-15 04:56:27.726  local_svc   main   1384   1384    2            anynet.connection_mgr - Starting connection manager fiber.
+   info 2022-04-15 04:56:27.726  local_svc   main   1384   1384    3           anynet.main_relay_conn - Starting main relay connection.
+   info 2022-04-15 04:56:27.727  local_svc   main   1384   1384    3           anynet.main_relay_conn - No connect addresses found. Starting with boot relays.
+   info 2022-04-15 04:56:27.727  local_svc   main   1384   1384    3           anynet.relay_connector - New execution plan:
+   info 2022-04-15 04:56:27.727  local_svc   main   1384   1384    3           anynet.relay_connector - Relay 0:
+   info 2022-04-15 04:56:27.727  local_svc   main   1384   1384    3           anynet.relay_connector -  boot-01.net.anydesk.com:443 (ID 1, offset 0)
+   info 2022-04-15 04:56:27.727  local_svc   main   1384   1384    3           anynet.relay_connector -  boot-01.net.anydesk.com:80 (ID 3, offset 2000)
+   info 2022-04-15 04:56:27.727  local_svc   main   1384   1384    3           anynet.relay_connector -  boot-01.net.anydesk.com:6568 (ID 5, offset 4000)
+   info 2022-04-15 04:56:27.727  local_svc   main   1384   1384    3           anynet.relay_connector -  boot-01.net.anydesk.com:443 (ID 7, offset 6000, with proxy)
+   info 2022-04-15 04:56:27.727  local_svc   main   1384   1384    3           anynet.relay_connector -  boot-01.net.anydesk.com:80 (ID 9, offset 8000, with proxy)
+   info 2022-04-15 04:56:27.727  local_svc   main   1384   1384    3           anynet.relay_connector -  boot-01.net.anydesk.com:6568 (ID 11, offset 10000, with proxy)
+   info 2022-04-15 04:56:27.727  local_svc   main   1384   1384    3           anynet.relay_connector - Relay 1:
+   info 2022-04-15 04:56:27.727  local_svc   main   1384   1384    3           anynet.relay_connector -  boot-02.net.anydesk.com:443 (ID 13, offset 12000)
+   info 2022-04-15 04:56:27.727  local_svc   main   1384   1384    3           anynet.relay_connector -  boot-02.net.anydesk.com:80 (ID 15, offset 14000)
+   info 2022-04-15 04:56:27.727  local_svc   main   1384   1384    3           anynet.relay_connector -  boot-02.net.anydesk.com:6568 (ID 17, offset 16000)
+   info 2022-04-15 04:56:27.727  local_svc   main   1384   1384    3           anynet.relay_connector -  boot-02.net.anydesk.com:443 (ID 19, offset 18000, with proxy)
+   info 2022-04-15 04:56:27.727  local_svc   main   1384   1384    3           anynet.relay_connector -  boot-02.net.anydesk.com:80 (ID 21, offset 20000, with proxy)
+   info 2022-04-15 04:56:27.727  local_svc   main   1384   1384    3           anynet.relay_connector -  boot-02.net.anydesk.com:6568 (ID 23, offset 22000, with proxy)
+   info 2022-04-15 04:56:27.727  local_svc   main   1384   1384    3           anynet.relay_connector - Wait for previous tasks to finish (task 26).
+   info 2022-04-15 04:56:27.727  local_svc   main   1384   1384    3           anynet.relay_connector - Pause for 1000 to 48000 ms and repeat (task 27).
+   info 2022-04-15 04:56:27.727  local_svc   main   1384   1384    3           anynet.relay_connector - Plan complete.
+   info 2022-04-15 04:56:27.727  local_svc   main   1384   1384    3                  fiber.exec_plan - Running execution plan.
+   info 2022-04-15 04:56:27.727  local_svc   main   1384   1384    3                  fiber.scheduler - Spawning child fiber 7 (parent 3).
+   info 2022-04-15 04:56:27.727  local_svc   main   1384   1384    3                  fiber.exec_plan - Waiting for 2000 msecs (2).
+   info 2022-04-15 04:56:27.727  local_svc   main   1384   1384    4                anynet.tcp_socket - Listening on port 7070.
+   info 2022-04-15 04:56:27.727  local_svc   main   1384   1384    4              anynet.tcp_acceptor - Listening on TCP port 7070.
+   info 2022-04-15 04:56:27.727  local_svc   main   1384   1384    5                anynet.any_socket - Listen fiber started.
+   info 2022-04-15 04:56:27.728  local_svc   main   1384   1384    6                      anynet.conn - Request before connect. Queueing.
+   info 2022-04-15 04:56:27.728  local_svc   main   1384   1384    7                  fiber.exec_plan - Running task 1 (timeout 30000).
+   info 2022-04-15 04:56:27.728  local_svc   main   1384   1384    7                  fiber.scheduler - Spawning child fiber 8 (parent 7).
+   info 2022-04-15 04:56:27.728  local_svc   main   1384   1384    7           anynet.relay_connector - Connecting to boot-01.net.anydesk.com:443.
+explode 2022-04-15 04:56:27.785       tray   main   1381   1381                   unix_base.x11_tools - Cannot open display
+warning 2022-04-15 04:56:29.694  local_svc   main   1384   1384                   fiber.ipc_namespace - Zombie process detected (1381). Fixing the state.
+   info 2022-04-15 04:56:31.695  local_svc   main   1384   1384    1                      app.service - Process stop: 1381.
+   info 2022-04-15 04:56:31.696  local_svc   main   1384   1384    3                  fiber.scheduler - Spawning child fiber 9 (parent 3).
+   info 2022-04-15 04:56:31.696  local_svc   main   1384   1384    3                  fiber.exec_plan - Waiting for 2000 msecs (4).
+   info 2022-04-15 04:56:31.696  local_svc   main   1384   1384    9                  fiber.exec_plan - Running task 3 (timeout 30000).
+   info 2022-04-15 04:56:31.697  local_svc   main   1384   1384    9                  fiber.scheduler - Spawning child fiber 10 (parent 9).
+   info 2022-04-15 04:56:31.697  local_svc   main   1384   1384    9           anynet.relay_connector - Connecting to boot-01.net.anydesk.com:80.
+   info 2022-04-15 04:56:33.699  local_svc   main   1384   1384    3                  fiber.scheduler - Spawning child fiber 11 (parent 3).
+   info 2022-04-15 04:56:33.699  local_svc   main   1384   1384    3                  fiber.exec_plan - Waiting for 2000 msecs (6).
+   info 2022-04-15 04:56:33.699  local_svc   main   1384   1384   11                  fiber.exec_plan - Running task 5 (timeout 30000).
+   info 2022-04-15 04:56:33.699  local_svc   main   1384   1384   11                  fiber.scheduler - Spawning child fiber 12 (parent 11).
+   info 2022-04-15 04:56:33.699  local_svc   main   1384   1384   11           anynet.relay_connector - Connecting to boot-01.net.anydesk.com:6568.
+   info 2022-04-15 04:56:35.701  local_svc   main   1384   1384    3                  fiber.scheduler - Spawning child fiber 13 (parent 3).
+   info 2022-04-15 04:56:35.701  local_svc   main   1384   1384    3                  fiber.exec_plan - Waiting for 2000 msecs (8).
+   info 2022-04-15 04:56:35.701  local_svc   main   1384   1384   13                  fiber.exec_plan - Running task 7 (timeout 30000).
+   info 2022-04-15 04:56:35.701  local_svc   main   1384   1384   13                  fiber.scheduler - Spawning child fiber 14 (parent 13).
+   info 2022-04-15 04:56:35.701  local_svc   main   1384   1384   13           anynet.relay_connector - No proxy. Aborting.
+   info 2022-04-15 04:56:35.713  local_svc   main   1384   1384                       fiber.scheduler - Fiber 13 requested quit of fiber 14.
+   info 2022-04-15 04:56:35.713  local_svc   main   1384   1384                       fiber.scheduler - Fiber 14 terminated.
+   info 2022-04-15 04:56:35.713  local_svc   main   1384   1384                       fiber.scheduler - Fiber 13 terminated.
+   info 2022-04-15 04:56:37.703  local_svc   main   1384   1384    3                  fiber.scheduler - Spawning child fiber 15 (parent 3).
+   info 2022-04-15 04:56:37.703  local_svc   main   1384   1384    3                  fiber.exec_plan - Waiting for 2000 msecs (10).
+   info 2022-04-15 04:56:37.703  local_svc   main   1384   1384   15                  fiber.exec_plan - Running task 9 (timeout 30000).
+   info 2022-04-15 04:56:37.703  local_svc   main   1384   1384   15                  fiber.scheduler - Spawning child fiber 16 (parent 15).
+   info 2022-04-15 04:56:37.703  local_svc   main   1384   1384   15           anynet.relay_connector - No proxy. Aborting.
+   info 2022-04-15 04:56:37.703  local_svc   main   1384   1384                       fiber.scheduler - Fiber 15 requested quit of fiber 16.
+   info 2022-04-15 04:56:37.703  local_svc   main   1384   1384                       fiber.scheduler - Fiber 16 terminated.
+   info 2022-04-15 04:56:37.703  local_svc   main   1384   1384                       fiber.scheduler - Fiber 15 terminated.
+warning 2022-04-15 04:56:37.728  local_svc   main   1384   1384    6                      anynet.conn - Request timeout.
+  error 2022-04-15 04:56:37.728  local_svc   main   1384   1384    6                   ad.wol_service - Could not update WOL information about this machine. WOL might not work. (result_timeout)
+   info 2022-04-15 04:56:39.704  local_svc   main   1384   1384    3                  fiber.scheduler - Spawning child fiber 17 (parent 3).
+   info 2022-04-15 04:56:39.704  local_svc   main   1384   1384    3                  fiber.exec_plan - Waiting for 2000 msecs (12).
+   info 2022-04-15 04:56:39.705  local_svc   main   1384   1384   17                  fiber.exec_plan - Running task 11 (timeout 30000).
+   info 2022-04-15 04:56:39.705  local_svc   main   1384   1384   17                  fiber.scheduler - Spawning child fiber 18 (parent 17).
+   info 2022-04-15 04:56:39.705  local_svc   main   1384   1384   17           anynet.relay_connector - No proxy. Aborting.
+   info 2022-04-15 04:56:39.705  local_svc   main   1384   1384                       fiber.scheduler - Fiber 17 requested quit of fiber 18.
+   info 2022-04-15 04:56:39.705  local_svc   main   1384   1384                       fiber.scheduler - Fiber 18 terminated.
+   info 2022-04-15 04:56:39.705  local_svc   main   1384   1384                       fiber.scheduler - Fiber 17 terminated.
+  error 2022-04-15 04:56:40.087  local_svc   main   1384   1384    7              anynet.dns_resolver - DNS name "boot-01.net.anydesk.com" couldn't be resolved (h_errno_1, result_timeout).
+   info 2022-04-15 04:56:40.087  local_svc   main   1384   1384    7           anynet.relay_connector - Error on boot-01.net.anydesk.com:443: result_timeout.
+   info 2022-04-15 04:56:40.088  local_svc   main   1384   1384                       fiber.scheduler - Fiber 7 requested quit of fiber 8.
+   info 2022-04-15 04:56:40.088  local_svc   main   1384   1384                       fiber.scheduler - Fiber 8 terminated.
+   info 2022-04-15 04:56:40.088  local_svc   main   1384   1384                       fiber.scheduler - Fiber 7 terminated.
+   info 2022-04-15 04:56:41.706  local_svc   main   1384   1384    1                      app.service - Initiating auto-shutdown.
+   info 2022-04-15 04:56:41.706  local_svc   main   1384   1384                       fiber.scheduler - Fiber 1 requested quit of fiber 6.
+   info 2022-04-15 04:56:41.706  local_svc   main   1384   1384                       fiber.scheduler - Fiber 6 terminated.
+   info 2022-04-15 04:56:41.707  local_svc   main   1384   1384                       fiber.scheduler - Fiber 1 requested quit of fiber 5.
+   info 2022-04-15 04:56:41.707  local_svc   main   1384   1384    5                anynet.any_socket - Listen fiber stopped.
+   info 2022-04-15 04:56:41.707  local_svc   main   1384   1384                       fiber.scheduler - Fiber 5 terminated.
+   info 2022-04-15 04:56:41.707  local_svc   main   1384   1384    1            anynet.connection_mgr - Connection manager shutdown.
+   info 2022-04-15 04:56:41.707  local_svc   main   1384   1384                       fiber.scheduler - Fiber 1 requested quit of fiber 3.
+   info 2022-04-15 04:56:41.707  local_svc   main   1384   1384                       fiber.scheduler - Fiber 3 requested quit of fiber 9.
+   info 2022-04-15 04:56:42.440  local_svc   main   1384   1384    9           anynet.relay_connector - Error on boot-01.net.anydesk.com:80: result_quit.
+   info 2022-04-15 04:56:42.440  local_svc   main   1384   1384                       fiber.scheduler - Fiber 9 requested quit of fiber 10.
+   info 2022-04-15 04:56:42.440  local_svc   main   1384   1384                       fiber.scheduler - Fiber 10 terminated.
+   info 2022-04-15 04:56:42.440  local_svc   main   1384   1384                       fiber.scheduler - Fiber 9 terminated.
+   info 2022-04-15 04:56:42.440  local_svc   main   1384   1384                       fiber.scheduler - Fiber 3 requested quit of fiber 11.
+   info 2022-04-15 04:56:42.440  local_svc   main   1384   1384   11           anynet.relay_connector - Error on boot-01.net.anydesk.com:6568: result_quit.
+   info 2022-04-15 04:56:42.441  local_svc   main   1384   1384                       fiber.scheduler - Fiber 11 requested quit of fiber 12.
+   info 2022-04-15 04:56:42.441  local_svc   main   1384   1384                       fiber.scheduler - Fiber 12 terminated.
+   info 2022-04-15 04:56:42.441  local_svc   main   1384   1384                       fiber.scheduler - Fiber 11 terminated.
+   info 2022-04-15 04:56:42.441  local_svc   main   1384   1384    3                  fiber.exec_plan - Execution plan quit.
+   info 2022-04-15 04:56:42.444  local_svc   main   1384   1384    3            anynet.connection_mgr - Forcing cleanup.
+  error 2022-04-15 04:56:42.444  local_svc   main   1384   1384    3           anynet.main_relay_conn - Main relay connection failed.
+   info 2022-04-15 04:56:42.444  local_svc   main   1384   1384                       fiber.scheduler - Fiber 3 terminated.
+   info 2022-04-15 04:56:42.444  local_svc   main   1384   1384    2            anynet.connection_mgr - Main relay connection failed (result_quit).
+   info 2022-04-15 04:56:42.444  local_svc   main   1384   1384                       fiber.scheduler - Fiber 1 requested quit of fiber 2.
+   info 2022-04-15 04:56:42.444  local_svc   main   1384   1384    2            anynet.connection_mgr - Connection manager fiber quit.
+   info 2022-04-15 04:56:42.444  local_svc   main   1384   1384                       fiber.scheduler - Fiber 2 terminated.
+   info 2022-04-15 04:56:42.444  local_svc   main   1384   1384                       fiber.scheduler - Fiber 1 requested quit of fiber 4.
+   info 2022-04-15 04:56:42.444  local_svc   main   1384   1384    4              anynet.tcp_acceptor - Received quit.
+   info 2022-05-03 09:12:21.298         ad   main   1379   1379                         impl_selector - using avx2
+ * * * * * * * * * * * * * * * * * *
+   info 2022-05-03 09:12:21.298         ad   main   1379   1379                                  main - * AnyDesk Linux Startup *
+   info 2022-05-03 09:12:21.298         ad   main   1379   1379                                  main - * Version 6.1.1 (linux_bsd_rpi_6.1.1 d5cd0aedcfaef0b868e31f90b10395e13dd0a3ef)
+   info 2022-05-03 09:12:21.298         ad   main   1379   1379                                  main - * Build 20210413130604
+   info 2022-05-03 09:12:21.298         ad   main   1379   1379                                  main - * Prefix ad
+   info 2022-05-03 09:12:21.298         ad   main   1379   1379                                  main - * Copyright (C) 2021 AnyDesk Software GmbH *
+   info 2022-05-03 09:12:21.298         ad   main   1379   1379                                  main - 
+   info 2022-05-03 09:12:21.298         ad   main   1379   1379                                  main - Distribution Info: CentOS Linux 7 (Core)
+   info 2022-05-03 09:12:21.298         ad   main   1379   1379                                  main - Found GLib Version: 2.56.
+warning 2022-05-03 09:12:21.301         ad   main   1379   1379                   fiber.ipc_namespace - Global namespace without service.
+warning 2022-05-03 09:12:21.301         ad   main   1379   1379                   fiber.ipc_namespace - Local namespace without service.
+   info 2022-05-03 09:12:21.301         ad   main   1379   1379                   fiber.ipc_namespace - Global: no
+   info 2022-05-03 09:12:21.301         ad   main   1379   1379                       app.common_path - user_data_dir = /root/.anydesk, logged_in_user_data_dir = /root/.anydesk, current_home = /root
+
+   info 2022-05-03 09:12:21.323         ad   main   1379   1379                       app.common_path - initialized user = /root/.anydesk, system = /root/.anydesk
+   info 2022-05-03 09:12:21.335         ad   main   1382   1382                         impl_selector - using avx2
+ * * * * * * * * * * * * * * * * * *
+   info 2022-05-03 09:12:21.335         ad   main   1382   1382                                  main - * AnyDesk Linux Startup *
+   info 2022-05-03 09:12:21.335         ad   main   1382   1382                                  main - * Version 6.1.1 (linux_bsd_rpi_6.1.1 d5cd0aedcfaef0b868e31f90b10395e13dd0a3ef)
+   info 2022-05-03 09:12:21.335         ad   main   1382   1382                                  main - * Build 20210413130604
+   info 2022-05-03 09:12:21.335         ad   main   1382   1382                                  main - * Prefix ad
+   info 2022-05-03 09:12:21.335         ad   main   1382   1382                                  main - * Copyright (C) 2021 AnyDesk Software GmbH *
+   info 2022-05-03 09:12:21.335         ad   main   1382   1382                                  main - 
+   info 2022-05-03 09:12:21.335         ad   main   1382   1382                                  main - Distribution Info: CentOS Linux 7 (Core)
+   info 2022-05-03 09:12:21.335         ad   main   1382   1382                                  main - Found GLib Version: 2.56.
+   info 2022-05-03 09:12:21.341         ad   main   1382   1382                       app.common_path - user_data_dir = /root/.anydesk, logged_in_user_data_dir = /root/.anydesk, current_home = /root
+
+   info 2022-05-03 09:12:21.341         ad   main   1382   1382                       app.common_path - initialized user = /root/.anydesk, system = /etc/anydesk
+   info 2022-05-03 09:12:21.342         ad   main   1382   1382                       app.common_path - user_data_dir = /root/.anydesk, logged_in_user_data_dir = /root/.anydesk, current_home = /root
+
+   info 2022-05-03 09:12:21.342         ad   main   1382   1382                       app.common_path - initialized user = /root/.anydesk, system = /etc/anydesk
+  error 2022-05-03 09:12:21.342         ad   main   1382   1382                                  main - Service is already running.
+   info 2022-05-03 09:12:21.342         ad   main   1382   1382                                  main - Exiting normally.
+explode 2022-05-03 09:12:23.251    control   main   1379   1379             app.named_process_starter - Unable to spawn service
